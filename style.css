@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,100;1,200&display=swap');
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    height: 50px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: rgb(192, 192, 192);
+  }
+  
+  .showcase {
+    background-image: url('images/Friseur_header.png');
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .showcase h1 {
+    font-size: 120px;
+    margin: 0;
+    color: rgb(246, 246, 246);
+    text-shadow: 4px 4px 4px rgb(0, 0, 0, 0.2);
+  }
+
+  .divider01 {
+    background-image: url('images/divider01.jpg');
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    margin-bottom: -20px;
+  }
+
+  .divider02 {
+    background-image: url('images/divider02.jpg');
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    margin-bottom: -20px;
+  }
+  
+  .services {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .services h2 {
+    font-size: 36px;
+    margin: 0 0 40px 0;
+  }
+  
+  .services p {
+    font-size: 18px;
+    color: #333;
+    margin: 0 40px 40px 40px;
+  }
+
+  .contact p {
+    font-size: 18px;
+    color: #333;
+    margin: 0 40px 40px 40px;
+  }
+  
+  .services i {
+    font-size: 36px;
+    color: #333;
+    margin: 0 20px 40px 20px;
+  }
+
+  #team {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #team h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+  
+  .team-member {
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+    margin: 0 100px;
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .team-member h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px #fff;
+  }
+  
+  .team-member p {
+    font-size: 16px;
+    color: #333;
+    margin: 0 40px 40px 40px;
+  }
+
+  .contact {
+    text-align: center;
+    padding: 35px 70px;
+    font-size: 24px;
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .map-container {
+    width: 50%;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 50px;
+  }
+  
+  .contact-info {
+    width: 50%;
+    text-align: left;
+  }
+  
+  iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: rgba(255, 255, 255, 0.848);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
